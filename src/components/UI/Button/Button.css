@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 0.375em 0.75em;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--clr-accent-light);
+}
+
+.button:disabled {
+  opacity: 0.65;
+}
+
+.button--success {
+  background-color: var(--clr-success);
+}
+
+.button--success:hover {
+  background-color: var(--clr-success-hover);
+}
+
+.button--brand {
+  background-color: var(--clr-brand);
+  color: var(--clr-accent-dark);
+}
+
+.button--brand:hover {
+  background-color: var(--clr-brand-hover);
+}
+
+.button--danger {
+  background-color: var(--clr-danger);
+}
+
+.button--danger:hover {
+  background-color: var(--clr-danger-hover);
+}

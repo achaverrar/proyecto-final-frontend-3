@@ -1,0 +1,63 @@
+:root {
+  --clr-accent-dark: #212529;
+  --clr-accent-light: #ffffff;
+  --clr-success-hover: #157347;
+  --clr-success: #198754;
+  --clr-brand: #ffcd39;
+  --clr-brand-hover: #e6ac00;
+  --clr-danger: #dc3545;
+  --clr-danger-hover: #bb2d3b;
+  --clr-primary-hover: #86b7fe;
+  --clr-neutral-light: #f8f9fa;
+  --border-default: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  color: var(--clr-accent-dark);
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p,
+ul {
+  margin-bottom: 1.6rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

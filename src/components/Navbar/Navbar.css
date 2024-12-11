@@ -1,0 +1,21 @@
+.navbar {
+  background-color: var(--clr-brand);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.navbar__link--brand {
+  font-size: 2rem;
+  padding: 0.25em 0.45em;
+}
+
+.navbar__links {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo > .logo__emphasis {
+  color: var(--clr-danger-hover);
+}

@@ -1,0 +1,33 @@
+.home-card__image {
+  aspect-ratio: 1.5;
+}
+
+.home-card__heading {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.home-card__footer {
+  text-align: center;
+  padding-bottom: 1.6rem;
+}
+
+.home-card__price {
+  display: block;
+  font-size: calc(2.1rem + 0.6vw);
+  font-weight: 500;
+  margin: 1.6rem 0;
+}
+
+.home-card__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.home-card__button {
+  flex: 1;
+  min-width: fit-content;
+}

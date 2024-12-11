@@ -1,0 +1,20 @@
+.ingredients__heading {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.ingredients__list {
+  list-style-position: inside;
+  padding-left: 2rem;
+}
+
+.ingredients__ingredient {
+  list-style-type: "🍕";
+  line-height: 1.5;
+  text-transform: capitalize !important;
+}
+
+.ingredients__ingredient-text {
+  padding-inline-start: 1ch;
+}

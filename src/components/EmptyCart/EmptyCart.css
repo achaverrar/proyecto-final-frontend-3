@@ -1,0 +1,12 @@
+.container--empty-cart {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.empty-cart__heading {
+  font-size: (2rem + 0.6vw);
+  font-weight: 400;
+}

@@ -1,0 +1,36 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item__col {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cart-item__image {
+  max-width: 6.4rem;
+}
+
+.cart-item__name {
+  text-transform: capitalize;
+}
+
+.cart-item__total-price {
+  color: var(--clr-success-hover);
+}
+
+.cart-item__counter {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cart-item__counter-button {
+  text-align: center;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0 0 0.25em;
+}
